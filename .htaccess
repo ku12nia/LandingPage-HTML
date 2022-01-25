@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^goodwayvacation\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.goodwayvacation\.com$
+RewriteRule ^public_html\/MasterMainWeb$ "http\:\/\/goodwayvacation\.com\/" [R=301,L]
+
